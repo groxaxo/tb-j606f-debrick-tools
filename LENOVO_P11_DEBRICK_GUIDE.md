@@ -7,12 +7,21 @@ This guide provides a detailed walkthrough for recovering a bricked Lenovo Tab P
 - **Tools**: `fastboot` and `adb` installed on your machine.
 - **Drivers**: Qualcomm USB Drivers (for EDL mode).
 - **Files**: 
-  - Stock Firmware Partitions (`boot.img`, `recovery.img`, `vbmeta.img`, `dtbo.img`).
+  - [Stock Firmware Partitions](https://mirrors-obs-1.lolinet.com/lenovo/tab_p11/TB-J606F/) (`boot.img`, `recovery.img`, `vbmeta.img`, `dtbo.img`).
   - Reconstructed Super Image (`super_fixed.img`).
-  - TWRP Recovery (`twrp-J606F_3.7.1_12.0-20240414.img`).
-  - Custom ROM (e.g., AOSP 12 GSI `system.img`).
+  - [TWRP Recovery 3.7.1](https://xdaforums.com/t/recovery-twrp-unofficial-twrp-3-7-1-recovery-for-lenovo-tb-j606f-l.4582697/) (`twrp-J606F_3.7.1_12.0-20240414.img`).
+  - Custom ROM (e.g., [AOSP GSI](https://github.com/phhusson/treble_experimentations/releases) `system.img`).
 
 ---
+
+## 🔗 Downloads & Resources
+
+| Resource | Source Link |
+| :--- | :--- |
+| **Official Firmware Mirror** | [Lolinet Mirror](https://mirrors-obs-1.lolinet.com/lenovo/tab_p11/TB-J606F/) |
+| **TWRP Recovery (XDA)** | [Unofficial TWRP Thread](https://xdaforums.com/t/recovery-twrp-unofficial-twrp-3-7-1-recovery-for-lenovo-tb-j606f-l.4582697/) |
+| **GSI List (Treble)** | [Project Treble GSI List](https://github.com/phhusson/treble_experimentations/wiki/Generic-System-Image-%28GSI%29-list) |
+| **ADB & Fastboot** | [Android SDK Platform-Tools](https://developer.android.com/studio/releases/platform-tools) |
 
 ## 🏗 Part 1: Debricking (Restoring Stock)
 
